@@ -23,11 +23,10 @@ public class MsmServiceImpl implements MsmService {
 
 
         /**
-         * aliyun.vod.file.keyid=LTAI4Fyqe3j971DKr9n4YQQf
-         * aliyun.vod.file.keysecret=a4imZkrVgLGgsokpfjgQGj3SHbHU1X
+
          */
         DefaultProfile profile =
-                DefaultProfile.getProfile("default", "LTAI4Fyqe3j971DKr9n4YQQf", "a4imZkrVgLGgsokpfjgQGj3SHbHU1X");
+                DefaultProfile.getProfile("default", "", "");
         IAcsClient client = new DefaultAcsClient(profile);
 
         //设置相关固定的参数
